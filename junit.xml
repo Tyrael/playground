@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="suite1" tests="3" failures="0" errors="0" skip="0" time="0.3">
-    <testsuite name="suite1.subsuite1" tests="3" failures="0" errors="0" skip="0" time="0.3">
+  <testsuite name="suite1" tests="3" failures="1" errors="0" skip="0" time="0.3">
+    <testsuite name="suite1.subsuite1" tests="3" failures="1" errors="0" skip="0" time="0.3">
       <testcase name='test001.phpt - EXPECT' time='0.1'>
+	<failure type='FAILED' message='Foo'>Bar</failure>
       </testcase>
       <testcase name='test002.phpt - EXPECT' time='0.1'>
       </testcase>
